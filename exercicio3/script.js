@@ -1,29 +1,29 @@
-const PROMPT_MSG_1 = 'Digite o primeiro número:'
-const PROMPT_MSG_2 = 'Digite o segundo número:'
+const promptMsg1 = 'Digite o primeiro número:'
+const promptMsg2 = 'Digite o segundo número:'
 
-let numberA = Number(prompt(PROMPT_MSG_1))
-let numberB = Number(prompt(PROMPT_MSG_2))
+const numberA = Number(prompt(promptMsg1))
+const numberB = Number(prompt(promptMsg2))
 
-function sum(x, y) {
+const sum = (x, y) => {
   return x + y
 }
 
-function subtract(x, y) {
+const subtract = (x, y) => {
   return x - y
 }
 
-function multiply(x, y) {
+const multiply = (x, y) => {
   return x * y
 }
 
-function divide(x, y) {
+const divide = (x, y) => {
   return x / y
 }
 
-let sumResult = sum(numberA, numberB)
-let subtractionResult = subtract(numberA, numberB)
-let multiplicationResult = multiply(numberA, numberB)
-let divisionResult = divide(numberA, numberB)
+const sumResult = sum(numberA, numberB)
+const subtractionResult = subtract(numberA, numberB)
+const multiplicationResult = multiply(numberA, numberB)
+const divisionResult = divide(numberA, numberB)
 
 console.log(sumResult)
 console.log(subtractionResult)
